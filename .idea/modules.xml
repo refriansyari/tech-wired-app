@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tech_Wired.iml" filepath="$PROJECT_DIR$/.idea/modules/Tech_Wired.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Tech_Wired.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Tech_Wired.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Tech_Wired.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Tech_Wired.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Tech_Wired.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Tech_Wired.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Tech_Wired.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Tech_Wired.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

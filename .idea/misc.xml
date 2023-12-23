@@ -1,0 +1,20 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FOR WORKS/TechBox/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/FOR WORKS/TechBox/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
+        <entry key="..\:/FOR WORKS/TechBox/app/src/main/res/layout/fragment_about.xml" value="0.25" />
+        <entry key="..\:/FOR WORKS/TechBox/app/src/main/res/layout/fragment_news_list.xml" value="0.1" />
+        <entry key="..\:/FOR WORKS/TechBox/app/src/main/res/layout/item_news_list.xml" value="0.24895833333333334" />
+        <entry key="..\:/FOR WORKS/TechBox/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

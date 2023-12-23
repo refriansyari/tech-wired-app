@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="TextAppearance.Text.PlusJakartaSans.Regular" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/plusjakartasans_regular</item>
+    </style>
+
+    <style name="TextAppearance.Text.PlusJakartaSans.Bold" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/plusjakartasans_bold</item>
+    </style>
+
+    <style name="TextAppearance.Text.PlusJakartaSans.Medium" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/plusjakartasans_medium</item>
+    </style>
+
+    <style name="TextAppearance.Text.PlusJakartaSans.SemiBold" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/plusjakartasans_semibold</item>
+    </style>
+
+
+</resources>

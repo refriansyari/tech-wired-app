@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_container"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="1dp"
+    android:paddingStart="8dp"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@+id/tv_title_article"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:textAppearance="@style/TextAppearance.Text.PlusJakartaSans.Bold"
+        android:textColor="@color/font_light_black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@id/iv_show_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/text_headline_title" />
+
+    <TextView
+        android:id="@+id/tv_publisher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="14dp"
+        android:text="@string/text_publisher"
+        android:textAppearance="@style/TextAppearance.Text.PlusJakartaSans.SemiBold"
+        android:textColor="@color/font_dark_grey"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@id/tv_title_article"
+        app:layout_constraintTop_toBottomOf="@id/tv_title_article" />
+
+    <TextView
+        android:id="@+id/tv_publish_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="14dp"
+        android:text="12 Desember 2023"
+        android:textAppearance="@style/TextAppearance.Text.PlusJakartaSans.Bold"
+        android:textColor="@color/font_light_grey"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@id/tv_publisher"
+        app:layout_constraintTop_toBottomOf="@id/tv_publisher" />
+
+    <ImageView
+        android:id="@+id/iv_show_image"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/ic_test_image" />
+</androidx.constraintlayout.widget.ConstraintLayout>
